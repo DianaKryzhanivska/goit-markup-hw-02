@@ -1,0 +1,49 @@
+/* колір основного тексту #2E2F42 */
+/* колір дод. тексту #FFFFFF */
+/* колір дод. тексту #434455 */
+/* колір дод. тексту #F4F4FD */
+
+body {
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+logo {
+  color: #2e2f42;
+}
+logo:hover {
+  color: #4d5ae5;
+}
+.accent {
+  color: #4d5ae5;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: #2e2f42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2e2f42;
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: #2e2f42;
+}
+
+/* Button */
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
