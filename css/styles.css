@@ -23,6 +23,7 @@ logo:hover {
 }
 
 /* Site nav */
+
 .site-nav .link {
   color: #2e2f42;
 }
@@ -30,6 +31,10 @@ logo:hover {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2e2f42;
+}
+
+.site-nav .link:current {
+  color: #4d5ae5;
 }
 
 /* Hero */
@@ -46,4 +51,16 @@ logo:hover {
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
+}
+
+/* PORTFOLIO */
+.list .primary-button {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+}
+
+.list .primary-button:hover,
+.list .primary-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
