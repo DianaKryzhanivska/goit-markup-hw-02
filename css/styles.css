@@ -14,10 +14,13 @@
 
 /* Logo */
 .logo {
-  color: #f4f4fd;
+  color: var(--brand-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
+  font-weight: 800;
   line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -30,26 +33,40 @@
 
 /* Site nav */
 
-.site-nav .link {
+.site-nav .link,
+.site-nav .link:current {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1, 5;
+  letter-spacing: 2em;
   text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2e2f42;
+.site-nav .link:current:hover,
+.site-nav .link:focus,
+.site-nav .link:current:focus {
+  color: #404bbf;
 }
 
 .site-nav .link:current {
   color: var(--brand-color);
 }
 
-.adress {
+/* Adress */
+.list .link {
   text-decoration: none;
   list-style: none;
+  font-style: normal;
+  color: #434455;
+  line-height: 1, 5;
+  letter-spacing: 0, 02em;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: #404bbf;
 }
 
 /* Hero */
