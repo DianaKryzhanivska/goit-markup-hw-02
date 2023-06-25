@@ -2,7 +2,7 @@
   --brand-color: #4d5ae5;
 }
 
-.body {
+body {
   color: #434455;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -13,13 +13,13 @@
 }
 
 /* Logo */
-.logo {
+.logo .link {
   color: var(--brand-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1, 17;
-  letter-spacing: 0, 03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -113,7 +113,7 @@
   line-height: 1, 5;
 }
 
-.footer {
+.footer-logo .link {
   color: #f4f4fd;
   background-color: #2e2f42;
 }
