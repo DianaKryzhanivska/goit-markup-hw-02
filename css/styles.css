@@ -1,6 +1,6 @@
 :root {
   --brand-color: #4d5ae5;
-  --secondary-color: #2E2F42
+  --secondary-color: #2e2f42;
   --background-color: #2e2f42;
   --second-background-color: #f4f4fd;
 }
@@ -36,35 +36,35 @@ body {
 
 /* Site nav */
 
-.site-nav .link,
-.site-nav .link:current {
-  color: #2e2f42;
+.list .link {
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 2em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:current:hover,
-.site-nav .link:focus,
-.site-nav .link:current:focus {
+.list .link:hover,
+.list .link:focus {
   color: #404bbf;
 }
 
-.site-nav .link:current {
+.list .link:current {
   color: var(--brand-color);
 }
 
 /* Adress */
-.list .link {
+.contacts .link {
   text-decoration: none;
   list-style: none;
   font-style: normal;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   color: #434455;
-  line-height: 1, 5;
-  letter-spacing: 0, 02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list .link:hover,
@@ -78,68 +78,74 @@ body {
   background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
-/* Section */
-.section-title {
-  color: #2e2f42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 11;
-  text-align: center;
-}
-
-.section-team {
-  background-color: #f4f4fd;
-}
-
-.section .h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1, 2;
-}
-
-.section .text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1, 5;
-}
-
-/* Button */
-.button {
+.hero .button {
   color: #ffffff;
   background-color: var(--brand-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.footer-logo .link {
-  color: #f4f4fd;
-  background-color: #2e2f42;
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #404bbf;
 }
 
-/* PORTFOLIO */
+/* Advantages */
 
 .list .examples {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  background-color: #ffffff;
+  text-transform: capitalize;
 }
 
-.examples .type {
-    font-family: Roboto, sans-serif;
+.examples .text {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
+
+/* What are we doing */
+.section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Footer */
+
+.footer-logo {
+  color: #f4f4fd;
+  background-color: var(--background-color);
+}
+
+.footer-logo .text {
+  color: var(--second-background-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO */
 
 .list .work-nav {
   color: var(--brand-color);
