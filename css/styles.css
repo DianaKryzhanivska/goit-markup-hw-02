@@ -1,9 +1,8 @@
-/* колір основного тексту #2E2F42 */
-/* колір дод. тексту #FFFFFF */
-/* колір дод. тексту #434455 */
-/* колір дод. тексту #F4F4FD */
+:root {
+  --brand-color: #4d5ae5;
+}
 
-body {
+.body {
   color: #434455;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -14,7 +13,7 @@ body {
 }
 
 /* Logo */
-logo {
+.logo {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -22,11 +21,11 @@ logo {
   text-decoration: none;
 }
 
-logo:hover {
+.logo:hover {
   color: #525cc9;
 }
 .accent {
-  color: #4d5ae5;
+  color: var(--brand-color);
 }
 
 /* Site nav */
@@ -45,7 +44,7 @@ logo:hover {
 }
 
 .site-nav .link:current {
-  color: #4d5ae5;
+  color: var(--brand-color);
 }
 
 .adress {
@@ -91,7 +90,7 @@ logo:hover {
 /* Button */
 .button {
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--brand-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 5;
@@ -104,7 +103,7 @@ logo:hover {
 
 /* PORTFOLIO */
 .list .primary-button {
-  color: #4d5ae5;
+  color: var(--brand-color);
   background-color: #e7e9fc;
 }
 
