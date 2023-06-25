@@ -1,6 +1,7 @@
 :root {
   --brand-color: #4d5ae5;
   --secondary-color: #2e2f42;
+  --third-color: #434455;
   --background-color: #2e2f42;
   --second-background-color: #f4f4fd;
 }
@@ -67,6 +68,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .list .link:hover,
 .list .link:focus {
   color: #404bbf;
@@ -75,7 +80,7 @@ body {
 /* Hero */
 .hero-title {
   color: #ffffff;
-  background-color: #2e2f42;
+  background-color: var(--background-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -105,7 +110,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   background-color: #ffffff;
@@ -118,7 +123,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
+  color: var(--third-color);
+  background-color: #ffffff;
 }
 
 /* What are we doing */
@@ -130,6 +136,15 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+
+/* Our team */
+.team-section {
+  background-color: var(--second-background-color);
+}
+
+.team-section .team-list {
+  background-color: #ffffff;
 }
 
 /* Footer */
@@ -154,7 +169,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.list .work-nav:hover,
+.list .work-nav:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .footer-logo {
