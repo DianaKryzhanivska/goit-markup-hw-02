@@ -148,10 +148,6 @@ body {
   text-transform: capitalize;
 }
 
-.section > .section-title {
-  letter-spacing: 0.02em;
-}
-
 /* Our team */
 .team-section {
   background-color: #f4f4fd;
