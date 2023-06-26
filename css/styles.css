@@ -124,12 +124,12 @@ body {
 
 .examples .text {
   font-family: Roboto, sans-serif;
-  color: var(--third-color);
-  background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--third-color);
+  background-color: #ffffff;
 }
 
 /* What are we doing */
@@ -138,8 +138,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
