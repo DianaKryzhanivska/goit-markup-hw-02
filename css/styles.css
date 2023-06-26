@@ -132,6 +132,11 @@ body {
   background-color: #ffffff;
 }
 
+.examples > .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* What are we doing */
 .section-title {
   color: #2e2f42;
@@ -141,6 +146,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.section > .section-title {
+  letter-spacing: 0.02em;
 }
 
 /* Our team */
