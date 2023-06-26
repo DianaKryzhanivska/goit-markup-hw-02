@@ -167,7 +167,7 @@ body {
 
 /* PORTFOLIO */
 
-.list .work.nav {
+.list .work-nav {
   font-family: Roboto, sans-serif;
   color: var(--brand-color);
   background-color: var(--second-background-color);
